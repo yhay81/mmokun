@@ -1,11 +1,12 @@
-import discord
-from discord.ext import commands
 import random
 import sqlite3
 import math
 import json
-import requests
 from xml.etree import ElementTree
+
+import discord
+from discord.ext import commands
+import requests
 
 MONSTER_NUM = 50
 
@@ -521,4 +522,3 @@ async def reset_battle(channel_id, level_up=False):
 f = open('setting.json', 'r')
 setting = json.load(f)
 bot.run(setting['token'])
-

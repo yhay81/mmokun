@@ -1,2 +1,5 @@
+.idea
+.vscode
+venv
 setting.json
 mmo.db
