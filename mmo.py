@@ -24,7 +24,7 @@ async def on_ready():
     print(bot.user.name)
     print(bot.user.id)
     print('------')
-    return await bot.change_presence(game=discord.Game(name="!!help|ver0.8.2", url="https://discha.net"))
+    return await bot.change_presence(game=discord.Game(name="!!help|ver0.9.0", url="https://discha.net"))
 
 
 @bot.event
