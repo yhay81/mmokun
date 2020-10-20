@@ -4,7 +4,7 @@ certifi==2018.11.29
 chardet==3.0.4
 discord==0.0.2
 discord.py==0.16.12
-idna==2.7
+idna==2.10
 multidict==4.5.2
 requests==2.20.1
 urllib3==1.24.1
